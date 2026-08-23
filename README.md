@@ -1,2 +1,2 @@
 # quotesync-site
-Public support and privacy pages for QuoteSync
+Public support, privacy, and terms pages for QuoteSync.
