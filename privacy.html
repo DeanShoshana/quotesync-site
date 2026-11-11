@@ -23,7 +23,7 @@
 <body>
   <main>
     <h1>Privacy Policy</h1>
-    <p class="updated">Effective date: June 28, 2026</p>
+    <p class="updated">Updated: November 12, 2026. Covers QuoteSync 1.0 and 2.0, including TestFlight versions.</p>
 
     <p>QuoteSync is built to keep proposal work private and local by default.</p>
 
@@ -38,6 +38,13 @@
     </ul>
     <p>This information is stored locally on your device. QuoteSync does not currently operate a developer server and does not upload proposal data to the developer.</p>
 
+    <h2>Optional iCloud Sync in Version 2.0</h2>
+    <p>Version 1.0 keeps the workspace locally. In version 2.0, iCloud Sync is optional and off by default. If you enable it, QuoteSync transfers your workspace to your private iCloud database through Apple's CloudKit service. Participating iPhone, iPad and Mac devices must use the same iCloud account and have sync enabled. There is no separate QuoteSync account or developer-hosted workspace server.</p>
+    <p>The synchronized workspace includes the proposal, client contact, pricing, project, brand image, reusable content, activity and revision information you enter. Workspace and device identifiers help reconcile edits and keep workspaces separate. Only store information you are entitled to use. Sync runs while the app is active; connectivity, account availability and iCloud storage limits can delay it.</p>
+
+    <h2>Apple Watch in Version 2.0</h2>
+    <p>The companion app receives a limited snapshot from your paired iPhone through Apple's WatchConnectivity service. This can include proposal titles, client names, values, statuses, follow-up dates and recent activity. The Watch stores its snapshot and action queue locally. Completion and snooze requests remain pending until acknowledged by the paired iPhone. Access may require a refresh from iPhone. Follow-up notification permission is optional.</p>
+
     <h2>Purchases</h2>
     <p>QuoteSync uses Apple’s StoreKit system for subscriptions. Subscription purchases, renewals, cancellations, and billing are handled by Apple under your Apple ID and Apple’s terms.</p>
 
@@ -48,13 +55,14 @@
     <p>QuoteSync does not track users across apps or websites. QuoteSync does not include third-party advertising or third-party analytics.</p>
 
     <h2>Sharing and Export</h2>
-    <p>QuoteSync can generate proposal PDFs and open the system share sheet. You choose where exported files are sent. Sharing destinations are handled by iOS and the apps you select.</p>
+    <p>QuoteSync can generate proposal PDFs and open system sharing tools. You choose where exported files are sent. Sharing destinations are handled by your operating system and the apps you select.</p>
 
     <h2>Data Deletion</h2>
-    <p>You can edit or remove proposal, project, brand, and content library data inside the app. Deleting the app from your device removes locally stored QuoteSync data from that device.</p>
+    <p>You can edit or remove workspace content through the app's available controls. Turning off iCloud Sync stops synchronization on that device; it does not delete data already in iCloud or on other devices. Removing the app from one device does not erase cloud copies, other devices' copies, backups, exports or files shared with recipients. Removing a Mac app may leave its local application data behind.</p>
+    <p>Revision history, conflict copies and deletion markers may be retained to reconcile changes. Removing an item from the interface does not guarantee immediate erasure from every revision or offline device. Pause sync on all participating devices before removing cloud data to prevent a retained local copy from uploading again. Contact support for help with data removal. The developer cannot erase your private workspace through a QuoteSync account service, and there is currently no in-app Delete Cloud Workspace command.</p>
 
     <h2>Changes</h2>
-    <p>This privacy policy may be updated when QuoteSync changes. If cloud sync, accounts, analytics, or server-backed features are added later, this policy will be updated before those features are released.</p>
+    <p>This policy will be updated when QuoteSync's data practices change. The optional sync and Watch sections apply to version 2.0 and later versions that provide those features, not to the local-only version 1.0.</p>
 
     <h2>Contact</h2>
     <p>For support or privacy questions, contact <a href="mailto:shoshanadean@gmail.com">shoshanadean@gmail.com</a>.</p>
